@@ -5,8 +5,8 @@
 # Installieren Sie nginx mittels source code.
 # Erstellen und starten Sie den docker container.
 #
-# Image bauen: docker build -t demo:nginx_source_code .
-# Image ausführen: docker run -p 8080:80 demo:nginx_source_code
+# Image bauen: docker build -t christianheimke/nginx:nginx_source_code .
+# Image ausführen: docker run -p 8080:80 christianheimke/nginx:nginx_source_code
 ########################################################################################
 FROM ubuntu:20.04
 

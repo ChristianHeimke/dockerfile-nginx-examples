@@ -6,8 +6,8 @@
 # Nutzen Sie den Mutlistage build.
 # Erstellen und starten Sie den docker container.
 #
-# Image bauen: docker build -t demo:nginx_multistage .
-# Image ausführen: docker run -p 8080:80 demo:nginx_multistage
+# Image bauen: docker build -t christianheimke/nginx:nginx_multistage .
+# Image ausführen: docker run -p 8080:80 christianheimke/nginx:nginx_multistage
 ########################################################################################
 
 # Basis-Image festlegen mit einem Alias
