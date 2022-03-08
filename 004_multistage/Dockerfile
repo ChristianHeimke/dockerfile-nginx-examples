@@ -67,11 +67,14 @@ RUN ./configure --prefix=/var/www/html \
                 --with-http_mp4_module \
     && make && make install
 
+########################################################################################
+#           FINALE STAGE
+########################################################################################
+
 # Basis Image festlegen
 # https://docs.docker.com/engine/reference/builder/#from
 ########################################################################################
 FROM ubuntu:20.04
-
 
 # Portfreigabe
 # https://docs.docker.com/engine/reference/builder/#expose
